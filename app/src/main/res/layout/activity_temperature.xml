@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hr.ferit.unicon.TemperatureActivity"
+    android:orientation="vertical"
+    android:background="@color/colorBlue">
+
+    <TextView
+        android:id="@+id/convertTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="50pt"
+        android:drawableTop="@drawable/ic_temp"
+        android:background="@color/colorBlue"/>
+    <Spinner
+        android:id="@+id/spinnerTemp1"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/convertTemperature"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/inputTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinnerTemp1"
+        android:layout_marginTop="12dp"
+        android:hint="@string/valueTemperature"
+        android:inputType="numberDecimal"/>
+
+    <Spinner
+        android:id="@+id/spinnerTemp2"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/inputTemperature"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/convertTemperatureBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorBlack"
+        android:text="convert"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>

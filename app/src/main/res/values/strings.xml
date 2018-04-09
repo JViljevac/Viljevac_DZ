@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UniCon</string>
+    <string name="valueLength">Enter value here</string>
+    <string name="valueMass">Enter value here</string>
+    <string name="valueSpeed">Enter value here</string>
+    <string name="valueTemperature">Enter value here</string>
+
+    <string-array name="massUnits">
+        <item>kilograms[kg]</item>
+        <item>pounds[lbs]</item>
+    </string-array>
+
+    <string-array name="lengthUnits">
+        <item>meters[m]</item>
+        <item>feet, UK</item>
+    </string-array>
+
+    <string-array name="temperatureUnits">
+        <item>celsius[°C]</item>
+        <item>fahrenheit[°F]</item>
+    </string-array>
+
+    <string-array name="speedUnits">
+        <item>meters/seconds[m/s]</item>
+        <item>kilometers/hour[km/h]</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hr.ferit.unicon.LengthActivity"
+    android:background="@color/colorPink">
+
+    <TextView
+        android:id="@+id/convertLength"
+        android:layout_width="match_parent"
+        android:layout_height="50pt"
+        android:drawableTop="@drawable/ic_length"
+        android:background="@color/colorPink"/>
+    <Spinner
+        android:id="@+id/spinnerLength1"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/convertLength"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/inputLength"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinnerLength1"
+        android:layout_marginTop="12dp"
+        android:hint="@string/valueLength"
+        android:inputType="numberDecimal"/>
+
+    <Spinner
+        android:id="@+id/spinnerLength2"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/inputLength"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/convertLengthBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorBlack"
+        android:text="convert"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
