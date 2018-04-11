@@ -43,6 +43,12 @@
         android:layout_below="@+id/inputSpeed"
         android:layout_marginTop="17dp" />
 
+    <TextView
+        android:id="@+id/etConvertedSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_above="@id/convertSpeedBtn"/>
+
     <Button
         android:id="@+id/convertSpeedBtn"
         android:layout_width="match_parent"

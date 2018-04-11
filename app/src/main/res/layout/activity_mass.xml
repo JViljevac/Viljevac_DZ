@@ -41,6 +41,11 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/inputMass"
         android:layout_marginTop="17dp" />
+    <TextView
+        android:id="@+id/etConverted"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_above="@id/convertMassBtn"/>
 
     <Button
         android:id="@+id/convertMassBtn"
